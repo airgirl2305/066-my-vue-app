@@ -14,7 +14,7 @@ const Messages = () => {
 };
 const Settings = () => {
   // писать на строке return либо ()
-  return <h3>Наcтройки</h3>;
+  return <h3>Страница с настройками</h3>;
 };
 function App() {
   // const [count, setCount] = useState(0)
