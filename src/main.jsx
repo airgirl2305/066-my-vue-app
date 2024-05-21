@@ -7,8 +7,8 @@ import { getUser, getUsers } from "./state.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   // маршруты начинаются с vite - возвращается на него при перезагрузке
-  <BrowserRouter basename="vite">
-    {/*<BrowserRouter>*/}
+  // <BrowserRouter basename="vite">
+  <BrowserRouter>
     {/* двойная прогрузка */}
     {/* <React.StrictMode> */}
     <App users={{ key_getUser: getUser, key_getUsers: getUsers }} />
