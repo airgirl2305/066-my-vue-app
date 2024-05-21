@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "http://l96705y2.beget.tech/vite",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

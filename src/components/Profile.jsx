@@ -1,12 +1,13 @@
 import styles from "./Profile.module.css";
 export const Profile = (props) => {
-
   const familyStyle = {
     color: "blue",
     fontSize: "1.2rem",
   };
 
-  let user = props.function();
+  let userId = window.location.pathname.split("/")[3];
+  //console.log(userId);
+  let user = props.function(userId);
 
   // писать на строке return либо ()
   return (
@@ -27,7 +28,7 @@ export const Profile = (props) => {
         <p>
           <span style={familyStyle}>Фамилия Имя: </span>
           <span>
-            {user.lastname}&nbsp;
+            {user.surname}&nbsp;
             {user.name}
           </span>
         </p>
